@@ -13,4 +13,6 @@ Then open the local URL Vite prints (usually `http://localhost:5173`).
 
 ## Deploy
 
+Live at [https://harbour-english.onrender.com](https://harbour-english.onrender.com).
+
 The site is a static Vite build on Render (`render.yaml`). Push to `main` to redeploy.
