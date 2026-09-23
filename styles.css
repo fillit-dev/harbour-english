@@ -712,6 +712,27 @@ em {
   text-transform: uppercase;
 }
 
+.call-line {
+  margin-top: 1.1rem;
+}
+
+.phone {
+  color: var(--gold);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.phone:hover {
+  text-decoration: underline;
+}
+
+.hp {
+  position: absolute;
+  left: -9999px;
+  height: 0;
+  overflow: hidden;
+}
+
 .enquire-form {
   display: grid;
   gap: 0.95rem;
@@ -763,13 +784,22 @@ em {
   outline-offset: 1px;
 }
 
-.form-success {
+.form-success,
+.form-error {
   margin: 0;
   padding: 0.85rem 0.95rem;
   border-radius: 12px;
+  font-family: var(--sans);
+}
+
+.form-success {
   background: rgba(215, 176, 122, 0.16);
   color: var(--gold);
-  font-family: var(--sans);
+}
+
+.form-error {
+  background: rgba(180, 70, 50, 0.18);
+  color: #f0c2b6;
 }
 
 .site-footer {
